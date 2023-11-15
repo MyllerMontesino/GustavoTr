@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Sen&display=swap');
+
+body{
+    background-color: #bbb ;
+}
+.col-sm{
+    color: green;
+}
+header{
+    background-color:#eee;
+    position: relative;
+    word-wrap: break-word;
+
+}
+header h1{
+    font-size: 5rem;
+    color: rgb(3, 3, 3);
+    text-align: center;
+}
+h1{
+    font-size: 3em !important;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+    margin-bottom: 1rem;
+}
+
+form{
+    padding-right: 3rem;
+}
+
+.nav-link{
+    text-align: center !important;
+}
+
+button.navbar-toggler{
+    background-color: white;
+    color: white;
+}
+nav div{
+    font-size: 1.2em;
+    margin-top: 0rem;
+    background-color: black ;
+
+}
+nav div a{
+    color: white !important;
+    margin-left: 2rem;
+}
+.navbar-brand{
+    font-size: 1.2em !important;
+}
+
+.nav-item :hover{
+    background-color: rgba(50, 94, 131, 0.705);
+}
+
+.container-fluid{
+    margin: -1rem;
+}
+
+aside{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.imgGym{
+    width:75%;
+}
+
+.rowgeneral{
+    margin-left: 1rem;
+    text-align: center;
+}
+
+article p{
+    margin: auto;
+    padding-top: 1rem;
+    margin: 1rem;
+    font-family: 'Sen', sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+}
+nav{
+    position: sticky !important; 
+    top: 0.51rem !important;
+    z-index: 200;
+    position: relative;
+}
+
+h1{
+    margin: 3rem;
+   
+}
+h2{
+font-family: 'amaranth';
+
+}
+main h2{
+    color: #000000;
+    font-size: 2em;
+    width: 100%;
+}
+main{
+    margin-top: 1rem;
+}
+
+/*Todas las card*/
+.card{
+    margin: auto;
+    margin-bottom: 2rem;
+
+}
+
+.card small{
+    
+    font-family: 'amaranth';
+    font-size: 1.5em;
+}
+
+
+.card-body{
+    margin-top: 1rem;
+    border: solid black 4px;
+    background-color: #ffffff;   
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;   
+}
+
+
+.btn-whatsapp{
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    bottom: 4rem;
+    right: 4rem;
+    color: #20df36;
+    text-align: center;
+    z-index: 350;    
+}
+
+
+.btn-whatsapp :hover{
+    color: #20df36b9;
+}
+
+
+footer{
+    width: 100%;
+    text-align: center;
+	background-color: black;
+	padding: 3rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Botones */
+.btn-danger{
+    font-family: 'sen' !important;
+    font-size: 1.5em !important;
+    position: relative;
+    display: flex;
+    background-color: rgb(255, 17, 17) !important;
+    width: 100%;
+}
+
+.btn-warning{
+    display: flex;
+    width: 100%;
+}
+
+.btn-secondary{
+    display: flex;
+    width: 100%;
+}
+.btn-primary{
+    background-color: rgb(4, 209, 7) !important;
+    width: 100%;
+    font-size: 1.5em !important;
+    font-family: 'sen' !important;
+    color: #000000 !important;
+    border: black solid 3px !important;
+
+
+}
+
+.btn-primary:hover{
+    background-color: rgb(5, 129, 3) !important;
+    transform: scale(0.95);
+    color: white !important;
+}
+
+/*----------------*/
+H5{
+    color: rgb(143, 0, 0) !important;
+    font-size: 2EM !important;
+    text-align: center;
+}
+.card-text{
+    text-align: justify;
+    font-family: 'sen';
+    font-size: 1.2em;
+}
+
+
+.info{
+    color: antiquewhite;
+}
+
+
+
+
+

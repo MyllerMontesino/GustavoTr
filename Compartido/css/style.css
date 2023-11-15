@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+
+header{
+    background-color:#eee;
+    position: relative;
+    word-wrap: break-word;
+}
+header h1{
+    font-size: 3rem;
+    color: rgb(10, 10, 10);
+    text-align: center;
+}
+article h1{
+    margin-top: 2rem !important;
+    font-size: 3em !important;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+    margin-bottom: 1rem;
+}
+.nav-link{
+    text-align: center !important;
+}
+
+button.navbar-toggler{
+    background-color: white;
+    color: white;
+}
+
+nav div{
+    position: sticky !important; 
+    top: 0 !important;
+    font-size: 1.2em;
+    margin-top: 0rem;
+    background-color: rgb(0, 0, 0) ;
+
+}
+nav div a{
+    color: white !important;
+    margin-left: 2rem;
+}
+.navbar-brand{
+    font-size: 1.2em !important;
+}
+.nav-item :hover{
+    background-color: rgba(50, 94, 131, 0.705);
+}
+
+nav{
+    z-index: 900;
+    position: sticky !important; 
+    top: 0.51rem !important;
+    position: relative;
+}
+.container-fluid{
+    position: sticky;
+    display: flex;
+    top: 0;
+    margin: -1rem;
+}
+
+aside{
+    width: 100%;
+}
+
+.imgGym{
+    width: 95%;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+
+article p{
+    margin: 0.5rem;
+    padding: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 2.5rem;
+    font-family: 'Sen', sans-serif;
+    font-size: 1.3em;
+}
+
+.titulo{  
+    color: rgb(255, 72, 72);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Sen', sans-serif;
+    text-align: center;
+    font-weight: 800;
+}
+
+.btn-whatsapp{
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    bottom: 4rem;
+    right: 4rem;
+    color: #20df36;
+    text-align: center;
+    z-index: 350;    
+}
+
+.fa-whatsapp{
+    font-size: 6rem;    
+}
+
+.btn-whatsapp :hover{
+    color: #20df36b9;
+}
+
+footer{
+    
+    width: 100%;
+    text-align: center;
+	background-color: black;
+	padding: 1.5rem 8%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.info{
+    color: antiquewhite;
+}
+
+.mapa{
+	background: linear-gradient(#FEFEFE, #888888);
+}
+iframe{
+    height: 15rem;
+    width: 100%;
+}
+
+.titulo-principal{
+    text-align: center;
+	font-size: 2rem;
+	margin: 0 0 2rem;
+}
+
+.contenido{
+	width: 95%;
+	margin: 0.1;
+}
